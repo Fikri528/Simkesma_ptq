@@ -3,9 +3,6 @@
 Sistem Informasi Kesekretariatan Mahasiswa UKM-PTQ (Universitas Malikussaleh).
 Kotlin • XML Layout • Material 3 • MVVM sederhana • Firebase Authentication + Realtime Database • ZXing QR.
 
-> Status: kode ditulis lengkap tetapi **belum pernah di-build/diuji di Android Studio oleh pembuatnya**.
-> Jalankan Build → Rebuild Project; bila ada error kompilasi kecil, kirim log-nya untuk diperbaiki.
-
 ## 1. Menjalankan
 1. Buka folder ini di Android Studio (Koala atau lebih baru, JDK 17). Tunggu Gradle sync.
 2. Di Firebase Console buat project, lalu **Add app → Android** dengan package `id.ac.unimal.simkesma`.
