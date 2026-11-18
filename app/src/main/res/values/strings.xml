@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIMKESMA UKM-PTQ</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_anggota">Anggota</string>
+    <string name="nav_sekretariat">Kesekretariatan</string>
+    <string name="nav_arsip">Arsip</string>
+    <string name="nav_profil">Profil</string>
+    <string name="header_overline">SIMKESMA • UKM-PTQ</string>
+    <string name="header_sub">SIMKESMA • UKM-PTQ UNIMAL</string>
+    <string name="cd_logo">Logo UKM-PTQ</string>
+    <string name="cd_back">Kembali</string>
+    <string name="cd_notif">Pengumuman</string>
+    <string name="cd_reset_filter">Atur ulang filter</string>
+    <string name="login_title">Selamat Datang Kembali</string>
+    <string name="login_subtitle">Sistem Informasi Manajemen Kesekretariatan UKM-PTQ\nUniversitas Malikussaleh</string>
+    <string name="role_anggota">Anggota</string>
+    <string name="role_admin">Pengurus / Admin</string>
+    <string name="label_email">Alamat Email</string>
+    <string name="label_password">Kata Sandi</string>
+    <string name="label_confirm">Konfirmasi Kata Sandi</string>
+    <string name="hint_email">nama@email.com</string>
+    <string name="hint_password">Masukkan kata sandi</string>
+    <string name="forgot_password">Lupa kata sandi?</string>
+    <string name="btn_login">Masuk Sekarang</string>
+    <string name="or">ATAU</string>
+    <string name="register_prompt">Belum punya akun? Daftar Akun</string>
+    <string name="login_prompt">Sudah punya akun? Masuk</string>
+    <string name="register_title">Daftar Anggota</string>
+    <string name="register_subtitle">Buat akun untuk mengakses SIMKESMA UKM-PTQ</string>
+    <string name="btn_register">Daftar Sekarang</string>
+    <string name="forgot_title">Atur Ulang Kata Sandi</string>
+    <string name="forgot_msg">Masukkan email akun Anda. Tautan pengaturan ulang akan dikirim ke email tersebut.</string>
+    <string name="reset_sent">Tautan pengaturan ulang kata sandi telah dikirim ke email Anda.</string>
+    <string name="btn_send">Kirim</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_close">Tutup</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_delete">Hapus</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_detail">Detail</string>
+    <string name="btn_retry">Coba Lagi</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_add">Tambah</string>
+    <string name="btn_download">Unduh</string>
+    <string name="btn_download_pdf">Unduh PDF</string>
+    <string name="btn_edit_draft">Edit Draft</string>
+    <string name="btn_attachment">Lampiran</string>
+    <string name="btn_pick_file">Pilih Berkas</string>
+    <string name="no_file">Belum ada berkas dipilih</string>
+    <string name="err_required">Kolom ini wajib diisi</string>
+    <string name="err_email_format">Format email tidak valid</string>
+    <string name="err_password_short">Kata sandi minimal 6 karakter</string>
+    <string name="err_password_mismatch">Konfirmasi kata sandi tidak sama</string>
+    <string name="err_digits">Hanya boleh berisi angka</string>
+    <string name="err_phone">Nomor telepon tidak valid (8–16 digit)</string>
+    <string name="err_number">Masukkan angka yang valid</string>
+    <string name="err_progress">Progres harus antara 0 dan 100</string>
+    <string name="err_user_not_found">Akun tidak ditemukan. Periksa email Anda atau daftar terlebih dahulu.</string>
+    <string name="err_wrong_credentials">Email atau kata sandi salah.</string>
+    <string name="err_email_used">Email sudah terdaftar. Silakan masuk.</string>
+    <string name="err_weak_password">Kata sandi terlalu lemah. Gunakan minimal 6 karakter.</string>
+    <string name="err_network">Tidak ada koneksi internet. Periksa jaringan Anda lalu coba lagi.</string>
+    <string name="err_generic">Terjadi kesalahan. Silakan coba lagi.</string>
+    <string name="err_not_admin">Akun ini bukan Pengurus/Admin. Silakan masuk melalui tab Anggota.</string>
+    <string name="err_admin_only">Hanya admin yang dapat melakukan aksi ini.</string>
+    <string name="err_file_required">Berkas wajib dipilih</string>
+    <string name="err_file_read">Berkas tidak dapat dibaca</string>
+    <string name="err_file_big">Ukuran berkas maksimal 700 KB</string>
+    <string name="err_file_missing">Berkas tidak ditemukan di server</string>
+    <string name="err_file_save">Gagal menyimpan berkas ke perangkat</string>
+    <string name="err_file_upload">Data tersimpan, tetapi unggah berkas gagal: %1$s</string>
+    <string name="err_save">Gagal menyimpan: %1$s</string>
+    <string name="err_timeout">Koneksi lambat atau terputus. Periksa jaringan lalu coba lagi.</string>
+    <string name="err_qr_invalid">Kode tidak dikenali atau rapat tidak ditemukan</string>
+    <string name="err_already_present">Anda sudah melakukan presensi untuk rapat ini</string>
+    <string name="error_title">Gagal memuat data</string>
+    <string name="error_network">Periksa koneksi internet Anda, lalu coba lagi.</string>
+    <string name="saved_ok">Data berhasil disimpan</string>
+    <string name="deleted_ok">Data berhasil dihapus</string>
+    <string name="file_saved">Tersimpan di Download/SIMKESMA: %1$s</string>
+    <string name="delete_title">Hapus data?</string>
+    <string name="delete_msg">“%1$s” akan dihapus permanen dan tidak dapat dikembalikan.</string>
+    <string name="logout_msg">Anda yakin ingin keluar dari akun?</string>
+    <string name="ent_anggota">Data Anggota</string>
+    <string name="sing_anggota">Anggota</string>
+    <string name="ent_divisi">Divisi</string>
+    <string name="sing_divisi">Divisi</string>
+    <string name="ent_surat_masuk">Surat Masuk</string>
+    <string name="sing_surat_masuk">Surat Masuk</string>
+    <string name="ent_surat_keluar">Surat Keluar</string>
+    <string name="sing_surat_keluar">Surat Keluar</string>
+    <string name="ent_rapat">Jadwal Rapat</string>
+    <string name="sing_rapat">Rapat</string>
+    <string name="title_jadwal">Jadwal &amp; Notula</string>
+    <string name="ent_proker">Program Kerja</string>
+    <string name="sing_proker">Program Kerja</string>
+    <string name="ent_arsip">Arsip</string>
+    <string name="sing_arsip">Dokumen</string>
+    <string name="ent_pengumuman">Pengumuman</string>
+    <string name="sing_pengumuman">Pengumuman</string>
+    <string name="ent_struktur">Struktur Organisasi</string>
+    <string name="ent_presensi">Presensi QR</string>
+    <string name="add_anggota">Tambah Anggota</string>
+    <string name="add_divisi">Tambah Divisi</string>
+    <string name="add_surat_masuk">Surat Masuk Baru</string>
+    <string name="add_surat_keluar_header">Buat Surat</string>
+    <string name="add_surat_keluar_fab">Surat Baru</string>
+    <string name="add_rapat">Buat Jadwal</string>
+    <string name="add_proker">Tambah Program</string>
+    <string name="add_arsip">Unggah Dokumen Baru</string>
+    <string name="add_pengumuman">Tambah Pengumuman</string>
+    <string name="btn_create_schedule">Buat Jadwal</string>
+    <string name="btn_add_meeting">Jadwal Baru</string>
+    <string name="btn_new_meeting">Buat Rapat</string>
+    <string name="unit_anggota">anggota</string>
+    <string name="unit_divisi">divisi</string>
+    <string name="unit_surat">surat</string>
+    <string name="unit_surat_aktif">surat aktif</string>
+    <string name="unit_rapat">rapat</string>
+    <string name="unit_proker">program kerja</string>
+    <string name="unit_dokumen">dokumen ditemukan</string>
+    <string name="unit_pengumuman">pengumuman</string>
+    <string name="count_fmt"><![CDATA[Menampilkan <b>%1$d</b> %2$s]]></string>
+    <string name="hint_search">Cari data...</string>
+    <string name="hint_search_rapat">Cari judul rapat, agenda, atau pemimpin...</string>
+    <string name="label_sort">Urutkan</string>
+    <string name="label_category">Kategori Arsip</string>
+    <string name="all_divisi">Semua Divisi</string>
+    <string name="all_status">Semua Status</string>
+    <string name="all_kategori">Semua Kategori</string>
+    <string name="all_disposisi">Semua Disposisi</string>
+    <string name="all_jenis">Semua Jenis</string>
+    <string name="empty_pill">Data Masih Kosong</string>
+    <string name="empty_pill_search">Tidak Ditemukan</string>
+    <string name="empty_title">Belum ada data %1$s</string>
+    <string name="empty_title_search">Data %1$s tidak ditemukan</string>
+    <string name="empty_desc">Data %1$s UKM-PTQ akan tertata rapi di sini setelah ditambahkan.</string>
+    <string name="empty_desc_search">Coba ubah kata kunci atau atur ulang filter pencarian Anda.</string>
+    <string name="f_nama_lengkap">Nama Lengkap</string>
+    <string name="f_nim">NIM</string>
+    <string name="f_email">Email</string>
+    <string name="f_telepon">Nomor Telepon</string>
+    <string name="f_divisi">Divisi</string>
+    <string name="f_jabatan">Jabatan</string>
+    <string name="f_status_anggota">Status Keanggotaan</string>
+    <string name="f_nama_divisi">Nama Divisi</string>
+    <string name="f_deskripsi">Deskripsi</string>
+    <string name="f_ketua">Ketua Divisi</string>
+    <string name="f_sekretaris">Sekretaris Divisi</string>
+    <string name="f_nomor_surat">Nomor Surat</string>
+    <string name="f_pengirim">Pengirim</string>
+    <string name="f_perihal">Perihal</string>
+    <string name="f_tanggal">Tanggal</string>
+    <string name="f_kategori">Kategori</string>
+    <string name="f_disposisi">Status Disposisi</string>
+    <string name="f_lampiran">Lampiran Dokumen (maks. 700 KB)</string>
+    <string name="f_tujuan">Tujuan Surat</string>
+    <string name="f_status_surat">Status Surat</string>
+    <string name="f_status_ttd">Status Tanda Tangan</string>
+    <string name="f_arsip_pdf">Arsip PDF (maks. 700 KB)</string>
+    <string name="f_judul_rapat">Judul Rapat</string>
+    <string name="f_jenis">Jenis Rapat</string>
+    <string name="f_jam">Jam (WIB)</string>
+    <string name="f_lokasi">Lokasi</string>
+    <string name="f_pemimpin">Pemimpin Rapat</string>
+    <string name="f_kewajiban">Kewajiban Hadir</string>
+    <string name="f_agenda">Agenda</string>
+    <string name="f_status">Status</string>
+    <string name="f_nama_proker">Nama Program Kerja</string>
+    <string name="f_divisi_pj">Divisi Penanggung Jawab</string>
+    <string name="f_tanggal_pelaksanaan">Tanggal Pelaksanaan</string>
+    <string name="f_anggaran">Anggaran (Rp)</string>
+    <string name="f_progres">Progres (0–100)</string>
+    <string name="f_judul_dokumen">Judul Dokumen</string>
+    <string name="f_berkas">Berkas Dokumen (maks. 700 KB)</string>
+    <string name="f_judul">Judul</string>
+    <string name="f_isi">Isi Pengumuman</string>
+    <string name="f_periode">Periode Kepengurusan</string>
+    <string name="f_tadabbur_teks">Teks Tadabbur</string>
+    <string name="f_tadabbur_sumber">Sumber (mis. QS. Al-Ma\'idah: 2)</string>
+    <string name="fmt_nim">NIM: %1$s</string>
+    <string name="fmt_divisi">Divisi %1$s</string>
+    <string name="fmt_tujuan">Tujuan: %1$s</string>
+    <string name="fmt_pengirim">Pengirim: %1$s</string>
+    <string name="fmt_ketua">Ketua: %1$s</string>
+    <string name="fmt_jumlah_anggota">%1$d anggota</string>
+    <string name="fmt_anggaran">Anggaran: %1$s</string>
+    <string name="fmt_target">Target: %1$s</string>
+    <string name="fmt_uploader">Diunggah oleh %1$s</string>
+    <string name="fmt_terdata">%1$d Terdata</string>
+    <string name="form_add">Tambah %1$s</string>
+    <string name="form_edit">Edit %1$s</string>
+    <string name="members_title">Anggota Divisi (%1$d)</string>
+    <string name="members_empty">Belum ada anggota pada divisi ini.</string>
+    <string name="tab_upcoming">Mendatang</string>
+    <string name="tab_history">Riwayat &amp; Notula</string>
+    <string name="attendance_confirmed">Kehadiran Terkonfirmasi</string>
+    <string name="btn_confirm_attendance">Konfirmasi Kehadiran</string>
+    <string name="btn_view_agenda">Lihat Agenda</string>
+    <string name="btn_detail_rapat">Detail Rapat</string>
+    <string name="btn_view_notula">Lihat Notula</string>
+    <string name="fmt_time_html"><![CDATA[%1$s • <b>%2$s WIB</b>]]></string>
+    <string name="fmt_leader_html"><![CDATA[Pemimpin: <b>%1$s</b>]]></string>
+    <string name="fmt_leader_plain">Pemimpin: %1$s</string>
+    <string name="fmt_meeting_desc">%1$s • %2$s WIB • %3$s</string>
+    <string name="notula">Notula Rapat</string>
+    <string name="notula_empty">Belum ada notula untuk rapat ini.</string>
+    <string name="btn_edit_notula">Edit Notula</string>
+    <string name="peserta_empty">Belum ada peserta yang mengonfirmasi kehadiran.</string>
+    <string name="peserta_fmt">%1$d peserta konfirmasi: %2$s</string>
+    <string name="btn_show_qr">Tampilkan QR Presensi</string>
+    <string name="manual_code_fmt">Kode manual: %1$s</string>
+    <string name="presensi_title">Presensi Rapat</string>
+    <string name="presensi_desc">Pindai kode QR yang ditampilkan panitia untuk mencatat kehadiran Anda.</string>
+    <string name="btn_scan">Pindai QR Presensi</string>
+    <string name="perm_denied_info">Izin kamera ditolak, sehingga QR tidak dapat dipindai. Anda tetap dapat presensi dengan memasukkan kode manual di bawah, atau mengaktifkan izin kamera lewat Pengaturan.</string>
+    <string name="btn_open_settings">Buka Pengaturan Aplikasi</string>
+    <string name="hint_manual_code">Kode rapat (manual)</string>
+    <string name="btn_manual_presence">Presensi dengan Kode</string>
+    <string name="history_attendance">Riwayat Kehadiran</string>
+    <string name="history_empty">Belum ada riwayat kehadiran.</string>
+    <string name="scan_prompt">Arahkan kamera ke kode QR presensi</string>
+    <string name="presence_ok">Presensi berhasil: %1$s</string>
+    <string name="greeting">Halo, %1$s 👋</string>
+    <string name="role_line_admin">Admin SIMKESMA UKM PTQ</string>
+    <string name="role_line_member">Anggota SIMKESMA UKM PTQ</string>
+    <string name="chip_active">Aktif</string>
+    <string name="profile_incomplete">Lengkapi profil Anda di tab Profil</string>
+    <string name="sec_quick">Aksi Cepat</string>
+    <string name="sec_quick_hint">Pintasan Utama</string>
+    <string name="sec_summary">Ringkasan Data Organisasi</string>
+    <string name="sec_next_meeting">Rapat Terdekat</string>
+    <string name="see_calendar">Lihat Kalender</string>
+    <string name="see_all">Lihat Semua</string>
+    <string name="q_anggota">Data Anggota</string>
+    <string name="q_surat">Surat &amp; Arsip</string>
+    <string name="q_surat_sub">Persuratan</string>
+    <string name="q_agenda">Agenda Kegiatan</string>
+    <string name="q_agenda_sub">Jadwal Acara</string>
+    <string name="q_struktur">Struktur Org</string>
+    <string name="q_struktur_sub">BPH &amp; Bidang</string>
+    <string name="tag_total">Total</string>
+    <string name="tag_bph">BPH/Divisi</string>
+    <string name="tag_bidang">Bidang</string>
+    <string name="tag_program">Program</string>
+    <string name="tag_inbound">Inbound</string>
+    <string name="tag_outbound">Outbound</string>
+    <string name="tag_presensi">Presensi</string>
+    <string name="st_anggota">Anggota Terdaftar</string>
+    <string name="st_pengurus">Pengurus</string>
+    <string name="st_divisi">Divisi Kepengurusan</string>
+    <string name="st_proker">Program Kerja</string>
+    <string name="st_masuk">Surat Masuk</string>
+    <string name="st_keluar">Surat Keluar</string>
+    <string name="st_hadir">Kehadiran Saya</string>
+    <string name="no_meeting_title">Belum ada rapat mendatang</string>
+    <string name="no_meeting_desc">Saat ini belum ada jadwal musyawarah atau koordinasi rutin terdaftar.</string>
+    <string name="meeting_status_clear">Status: Jadwal Bersih</string>
+    <string name="tadabbur_title">TADABBUR SINGKAT</string>
+    <string name="tadabbur_default">“Dan tolong-menolonglah kamu dalam mengerjakan kebajikan dan takwa…” (QS. Al-Ma\'idah: 2)</string>
+    <string name="periode_fmt">Periode %1$s</string>
+    <string name="periode_unset">Periode belum diatur</string>
+    <string name="hub_desc">Kelola seluruh administrasi UKM-PTQ dalam satu tempat.</string>
+    <string name="hub_surat_masuk">Arsip surat diterima</string>
+    <string name="hub_surat_keluar">Surat dikirim</string>
+    <string name="hub_jadwal">Rapat &amp; notula</string>
+    <string name="hub_proker">Rencana &amp; progres</string>
+    <string name="hub_divisi">Bidang kepengurusan</string>
+    <string name="hub_struktur">BPH &amp; Bidang</string>
+    <string name="hub_presensi">Scan QR kehadiran</string>
+    <string name="sec_bph">Badan Pengurus Harian</string>
+    <string name="struktur_empty">Belum ada data kepengurusan. Admin dapat mengatur jabatan di menu Data Anggota.</string>
+    <string name="struktur_section_empty">Belum ada pengurus pada bidang ini.</string>
+    <string name="btn_edit_periode">Ubah Periode Kepengurusan</string>
+    <string name="btn_edit_periode_short">Periode</string>
+    <string name="role_admin_label">Admin / Pengurus</string>
+    <string name="role_member_label">Anggota</string>
+    <string name="btn_edit_profile">Ubah Profil</string>
+    <string name="btn_change_password">Ubah Kata Sandi (kirim tautan ke email)</string>
+    <string name="btn_manage_announcements">Kelola Pengumuman</string>
+    <string name="btn_logout">Keluar</string>
+    <string name="org_name_label">Organisasi</string>
+    <string name="org_name">UKM-PTQ (Pengembangan Tilawatil Qur\'an)</string>
+    <string name="org_univ_label">Kampus</string>
+    <string name="org_univ">Universitas Malikussaleh</string>
+    <string-array name="opt_divisi">
+        <item>Agama</item>
+        <item>Humas</item>
+        <item>Informasi dan Komunikasi</item>
+        <item>Kewirausahaan</item>
+        <item>Kaderisasi</item>
+        <item>Pendidikan dan Pelatihan</item>
+        <item>Kesekretariatan</item>
+    </string-array>
+    <string-array name="opt_divisi_awal">
+        <item>Agama</item>
+        <item>Humas</item>
+        <item>Informasi dan Komunikasi</item>
+        <item>Kewirausahaan</item>
+        <item>Kaderisasi</item>
+        <item>Pendidikan dan Pelatihan</item>
+        <item>Kesekretariatan</item>
+    </string-array>
+    <string-array name="opt_jabatan">
+        <item>Ketua Umum</item>
+        <item>Wakil Ketua</item>
+        <item>Sekretaris</item>
+        <item>Bendahara</item>
+        <item>Ketua Divisi</item>
+        <item>Sekretaris Divisi</item>
+        <item>Anggota Divisi</item>
+    </string-array>
+    <string-array name="opt_bph">
+        <item>Ketua Umum</item>
+        <item>Wakil Ketua</item>
+        <item>Sekretaris</item>
+        <item>Bendahara</item>
+    </string-array>
+    <string-array name="opt_status_anggota">
+        <item>Aktif</item>
+        <item>Non-Aktif</item>
+        <item>Alumni</item>
+    </string-array>
+    <string-array name="opt_kategori_surat">
+        <item>Undangan</item>
+        <item>Permohonan</item>
+        <item>Pemberitahuan</item>
+        <item>Edaran</item>
+        <item>Lainnya</item>
+    </string-array>
+    <string-array name="opt_disposisi">
+        <item>Belum Didisposisi</item>
+        <item>Diproses</item>
+        <item>Selesai</item>
+    </string-array>
+    <string-array name="opt_status_surat">
+        <item>Draft</item>
+        <item>Menunggu TTD</item>
+        <item>Terkirim</item>
+        <item>Selesai</item>
+        <item>Ditolak</item>
+    </string-array>
+    <string-array name="opt_status_ttd">
+        <item>Belum</item>
+        <item>Sudah</item>
+    </string-array>
+    <string-array name="opt_jenis_rapat">
+        <item>Rapat Pleno</item>
+        <item>Rapat Rutin</item>
+        <item>Rapat Divisi</item>
+    </string-array>
+    <string-array name="opt_kewajiban">
+        <item>Wajib Hadir</item>
+        <item>Opsional</item>
+    </string-array>
+    <string-array name="opt_status_rapat">
+        <item>Akan Datang</item>
+        <item>Selesai</item>
+        <item>Dibatalkan</item>
+    </string-array>
+    <string-array name="opt_status_proker">
+        <item>Rancangan</item>
+        <item>Berjalan</item>
+        <item>Selesai</item>
+        <item>Ditunda</item>
+    </string-array>
+    <string-array name="opt_kategori_arsip">
+        <item>AD/ART</item>
+        <item>SK Kepengurusan</item>
+        <item>Proposal</item>
+        <item>LPJ</item>
+        <item>Surat</item>
+        <item>Notula</item>
+        <item>Dokumen Lainnya</item>
+    </string-array>
+    <string-array name="sort_options">
+        <item>Terbaru</item>
+        <item>Terlama</item>
+        <item>Nama (A–Z)</item>
+    </string-array>
+    <string-array name="hijri_months">
+        <item>Muharram</item>
+        <item>Safar</item>
+        <item>Rabiul Awal</item>
+        <item>Rabiul Akhir</item>
+        <item>Jumadil Awal</item>
+        <item>Jumadil Akhir</item>
+        <item>Rajab</item>
+        <item>Syaban</item>
+        <item>Ramadhan</item>
+        <item>Syawal</item>
+        <item>Dzulkaidah</item>
+        <item>Dzulhijjah</item>
+    </string-array>
+    <string name="f_foto">Foto Profil (maks. 700 KB)</string>
+    <string name="pick_image_title">Pilih Sumber Foto</string>
+    <string name="pick_gallery">Galeri</string>
+    <string name="pick_camera">Kamera</string>
+    <string name="tap_to_change_photo">Ketuk untuk ubah foto</string>
+    <string name="delete_photo">Hapus Foto Profil</string>
+    <string name="btn_add_pengurus">Atur Pengurus</string>
+    <string name="title_assign_pengurus">Tetapkan Jabatan Pengurus</string>
+    <string name="select_member">Pilih Anggota</string>
+    <string name="select_jabatan">Jabatan Pengurus</string>
+    <string name="select_divisi">Divisi</string>
+    <string name="select_periode">Periode Kepengurusan</string>
+    <string name="err_select_member">Pilih anggota terlebih dahulu</string>
+    <string name="err_select_jabatan">Pilih jabatan pengurus terlebih dahulu</string>
+    <string name="ent_pengurus">Pengurus Organisasi</string>
+    <string name="sing_pengurus">Pengurus</string>
+    <string name="unit_pengurus">pengurus</string>
+    <string name="add_pengurus">Tambah Pengurus</string>
+    <string name="hub_pengurus">Daftar &amp; kelola kepengurusan UKM</string>
+    <string name="btn_open">Buka</string>
+    <string name="ent_periode">Periode Kepengurusan</string>
+    <string name="sing_periode">Periode Kepengurusan</string>
+    <string name="unit_periode">periode</string>
+    <string name="add_periode">Tambah Periode</string>
+    <string name="hub_periode">Daftar &amp; kelola masa kepengurusan</string>
+    <string name="fmt_status_periode">Status: %1$s</string>
+    <string-array name="opt_status_periode">
+        <item>Aktif</item>
+        <item>Non-Aktif</item>
+        <item>Akan Datang</item>
+    </string-array>
+    <string name="btn_view_struktur">Lihat Struktur Organisasi</string>
+    <string name="pengurus_empty">Belum ada pengurus yang ditetapkan.</string>
+</resources>

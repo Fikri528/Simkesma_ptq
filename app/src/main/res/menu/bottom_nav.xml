@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_dashboard" android:icon="@drawable/ic_grid_view" android:title="@string/nav_dashboard" />
+    <item android:id="@+id/nav_anggota" android:icon="@drawable/ic_group" android:title="@string/nav_anggota" />
+    <item android:id="@+id/nav_sekretariat" android:icon="@drawable/ic_apartment" android:title="@string/nav_sekretariat" />
+    <item android:id="@+id/nav_arsip" android:icon="@drawable/ic_inventory_2" android:title="@string/nav_arsip" />
+    <item android:id="@+id/nav_profil" android:icon="@drawable/ic_person" android:title="@string/nav_profil" />
+</menu>

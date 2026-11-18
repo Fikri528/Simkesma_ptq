@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0D7A68</color>
+    <color name="primary_dark">#095A4C</color>
+    <color name="primary_light">#139A84</color>
+    <color name="teal_container">#E6F4F1</color>
+    <color name="teal_accent">#2DD4BF</color>
+    <color name="mint">#CDEFE7</color>
+    <color name="surface_bg">#F8FAF9</color>
+    <color name="card">#FFFFFF</color>
+    <color name="card_low">#F2F4F3</color>
+    <color name="container_high">#ECEEED</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#10B981</color>
+    <color name="green_c">#D1FAE5</color>
+    <color name="green_d">#047857</color>
+    <color name="amber">#F59E0B</color>
+    <color name="amber_c">#FEF3C7</color>
+    <color name="amber_d">#92400E</color>
+    <color name="blue">#3B82F6</color>
+    <color name="blue_c">#DBEAFE</color>
+    <color name="blue_d">#1D4ED8</color>
+    <color name="red">#EF4444</color>
+    <color name="red_c">#FEE2E2</color>
+    <color name="red_d">#B91C1C</color>
+    <color name="gold">#FFD700</color>
+    <color name="border">#E2E8F0</color>
+    <color name="input_bg">#F8FAFC</color>
+</resources>

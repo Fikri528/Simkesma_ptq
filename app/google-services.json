@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "700361461565",
+    "project_id": "simkesma-ptq",
+    "storage_bucket": "simkesma-ptq.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700361461565:android:b303dd900dbfe584beff54",
+        "android_client_info": {
+          "package_name": "com.simkesma.ptq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700361461565-vhvul4irstl71as8l4ea4p78htmkae25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4wb1VDf1CicLQITFk6aT4XV30EZrhsVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700361461565-vhvul4irstl71as8l4ea4p78htmkae25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

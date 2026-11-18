@@ -1,0 +1,44 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "users": {
+      ".read": "auth != null",
+      "$uid": {
+        ".write": "auth != null && (auth.uid === $uid || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+        "role": {
+          ".validate": "newData.val() === 'anggota' || (newData.val() === 'admin' && (auth.token.email === 'radikafikrigo2020@gmail.com' || root.child('users').child(auth.uid).child('role').val() === 'admin'))"
+        }
+      }
+    },
+    "anggota": {
+      ".read": "auth != null",
+      "$id": {
+        ".write": "auth != null && (root.child('users').child(auth.uid).child('role').val() === 'admin' || (auth.uid === $id && !data.exists()))",
+        "namaLengkap": { ".write": "auth != null && auth.uid === $id" },
+        "nim": { ".write": "auth != null && auth.uid === $id" },
+        "telepon": { ".write": "auth != null && auth.uid === $id" }
+      }
+    },
+    "divisi": { ".read": "auth != null", ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'" },
+    "surat_masuk": { ".read": "auth != null", ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'" },
+    "surat_keluar": { ".read": "auth != null", ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'" },
+    "program_kerja": { ".read": "auth != null", ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'" },
+    "arsip_dokumen": { ".read": "auth != null", ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'" },
+    "pengumuman": { ".read": "auth != null", ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'" },
+    "pengaturan": { ".read": "auth != null", ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'" },
+    "notula": { ".read": "auth != null", ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'" },
+    "files": { ".read": "auth != null", ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'" },
+    "rapat": {
+      ".read": "auth != null",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'",
+      "$id": { "peserta": { "$uid": { ".write": "auth != null && auth.uid === $uid" } } }
+    },
+    "kehadiran": {
+      ".read": "auth != null",
+      "$id": {
+        ".write": "auth != null && (root.child('users').child(auth.uid).child('role').val() === 'admin' || (newData.exists() && newData.child('uid').val() === auth.uid && !data.exists()))"
+      }
+    }
+  }
+}
